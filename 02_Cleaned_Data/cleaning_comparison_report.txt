@@ -1,0 +1,17 @@
+CYCLISTIC DATA CLEANING COMPARISON REPORT
+============================================================
+
+     Metric    STRICT   LENIENT
+ Total Rows 2,913,717 2,916,514
+    Members 2,618,353 2,620,887
+     Casual   295,364   295,627
+   Member %     89.9%     89.9%
+   Casual %     10.1%     10.1%
+Ratio (M:C)     8.9:1     8.9:1
+
+============================================================
+KEY DIFFERENCES
+============================================================
+Additional rows in LENIENT: 2,797
+  - Additional Casual riders: 263
+  - Additional Members: 2,534

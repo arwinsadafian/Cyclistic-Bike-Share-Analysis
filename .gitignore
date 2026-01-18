@@ -1,0 +1,67 @@
+# ============================================
+# CYCLISTIC CASE STUDY - .gitignore
+# ============================================
+
+# Large data files (too big for GitHub)
+01_Raw_Data/*.csv
+02_Cleaned_Data/*.csv
+
+# Large Excel files in Cleaned Data
+02_Cleaned_Data/Cyclistic_Analysis_Workbook.xlsx
+02_Cleaned_Data/cyclistic_excel_sample.xlsx
+
+# Keep documentation files
+!01_Raw_Data/DATA_SOURCE.md
+!02_Cleaned_Data/data_summary.txt
+!02_Cleaned_Data/cleaning_comparison_report.txt
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+ENV/
+
+# R
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.backup
